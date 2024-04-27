@@ -2,8 +2,8 @@
 import os
 from medium_api import MediumAPI
 
-graph_query = open('searchquery.txt', 'r').read()
-search_keywords = ['sales and marketing', 'science and education']
+graph_query = open('searchquery.qu', 'r').read()
+search_keywords = ['food', 'fashion and beauty' , 'sports']
 headers = {
     'accept': '*/*',
     'accept-language': 'en-US,en;q=0.9',
